@@ -15,6 +15,7 @@ exports.mongoose = mongoose;
  */
 
 const ObjectId = mongoose.Types.ObjectId;
+exports.ObjectId = ObjectId;
 
 // -- check if value is valid ObjectId --
 exports.isValidObjectId = (value) => {
