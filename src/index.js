@@ -204,7 +204,7 @@ exports.doesDirExists = (dpath) => {
 
 // -- check if file exists --
 exports.doesFileExists = (fpath) => {
-  if (is.not.exisyt(fpath)) {
+  if (is.not.existy(fpath)) {
     return false;
   }
 
